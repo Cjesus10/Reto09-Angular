@@ -1,0 +1,10 @@
+
+.imagen{
+    height: 26rem;
+    display: flex;
+    justify-content: center;
+}
+.dado{
+    background-color: #C6553D;
+    color:aqua;
+}

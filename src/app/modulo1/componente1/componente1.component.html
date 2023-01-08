@@ -1,0 +1,30 @@
+<section class="text-center pt-4 border border-2 border-success bg-light">
+    <input type="checkbox" class="form-check-input" (click)="Generar()">
+    <p *ngIf="mostrar === false">Activa el checkbox para mostrar el contenido</p>
+    <p *ngIf="mostrar === true">Desactiva el checkbox para ocultar el contenido</p>
+</section>
+
+<body *ngIf="mostrar">
+    <section class="imagen">
+        <img src="../../../assets/imagen.jpg" alt="" class="img-fluid">
+    </section>
+    
+    
+    <section class="d-flex justify-content-center mt-4 bg-light">
+        <section class="col-5">
+            <h2>Imagen corporativa: elementos básicos</h2>
+            <p>Después del trabajo de conceptualización nos queda generar los elementos básicos que nos ayuden a transmitir al público cuál es nuestra marca. Estos elementos básicos serían:</p> 
+    
+            <ul>
+                <li>Encontrar un nombre, el naming de la marca.</li>
+                <li>Diseñar un logotipo.</li>
+                <li>Diseñar o encontrar una tipografía que se adapte la personalidad de la marca.</li>
+                <li>Seleccionar nuestros colores corporativos.</li>
+                <li>Encontrar un eslogan que explique qué hacemos.</li>
+                <li>Encontrar un tono con el que expresarnos en nuestras comunicaciones.</li>
+            </ul>
+        </section>
+    
+    </section>
+    
+</body>
