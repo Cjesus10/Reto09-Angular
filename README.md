@@ -1,5 +1,5 @@
-## Reto 09 Angular
-# Alumno:
+# Reto 09 Angular
+## Alumno:
 - Cristian Joel Jesus Aire
 
 ![Página principal](src/assets/Captura.PNG)
